@@ -2,8 +2,8 @@
 ## Bifactor using lavaan
 ##------------------------- 2019-Oct-04
 
-setwd("C:/Users/SUNMEE/Downloads/Jewish General Hospital_Lavaan_codes")
-m.data <- read.csv("GSCA_data_blank.csv", header = T, sep = ",", na.strings=c(""))
+# setwd("-----------")
+m.data <- read.csv("---------.csv", header = T, sep = ",", na.strings=c(""))
 
 library(lavaan)
 library(semTools)

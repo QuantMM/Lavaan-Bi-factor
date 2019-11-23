@@ -1,7 +1,7 @@
 LavaanMediators
 ====================================================
 
-This is an R code repository for the analysis of mediation model using {lavaan}
+This is an R code repository for the analysis of a bi-factor model with two general factors, plus interaction and mediation effects, using the R package {lavaan}
 
 Author(s)
 -------
@@ -13,7 +13,8 @@ Updates & Notes
 
 1. Normality assumption in regular ML
   - There are ways to handle it. See pp.76-, Tutorial slides [here, Yves Rosseel 2014](https://personality-project.org/r/tutorials/summerschool.14/rosseel_sem_intro.pdf)
-  - Bootstrapped standard errors of the parameter estimates: Bollen-Stine bootstrap [example: se = "bootstrap"](https://psu-psychology.github.io/r-bootcamp-2018/talks/lavaan_tutorial.html) 
+  - Bootstrapped standard errors of the parameter estimates: Bollen-Stine bootstrap
+  - Examples? [here](https://psu-psychology.github.io/r-bootcamp-2018/talks/lavaan_tutorial.html) and [here](https://paolotoffanin.wordpress.com/2017/05/06/multiple-mediator-analysis-with-lavaan/comment-page-1/)
 
 2. Interaction effects in {lavaan}
   - {semTools} package has a function indProd() that will generate product-indicators of a latent interaction.

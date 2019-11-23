@@ -1,4 +1,4 @@
-LavaanMediators
+Lavaan: Bi-factor
 ====================================================
 
 This is an R code repository for the analysis of a bi-factor model with two general factors, plus interaction and mediation effects, using the R package {lavaan}

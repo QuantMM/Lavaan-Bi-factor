@@ -17,7 +17,7 @@ Updates & Notes
   - Examples? [here](https://psu-psychology.github.io/r-bootcamp-2018/talks/lavaan_tutorial.html) and [here](https://paolotoffanin.wordpress.com/2017/05/06/multiple-mediator-analysis-with-lavaan/comment-page-1/)
 
 2. Dealing with interaction effects (moderations) in {lavaan}
-  - I found [this discussion](https://groups.google.com/forum/#!topic/lavaan/iP4LDqyjlLQ) helpful.
+  - I found a comment from [this discussion](https://groups.google.com/forum/#!topic/lavaan/iP4LDqyjlLQ) helpful (by Terrence D. Jorgensen): create product indicators as indicators of a latent variable that represents the interaction term
   - {semTools} package has a function indProd() that will generate product-indicators of a latent interaction.
   - See the example syntax for this regarding [indProd](https://www.rdocumentation.org/packages/semTools/versions/0.5-2/topics/indProd) and [probe2WayMC](https://www.rdocumentation.org/packages/semTools/versions/0.5-2/topics/probe2WayMC)
   - In {lavaan}, though, we can manually do this so-called residual centering approach of Little et al. (2006)

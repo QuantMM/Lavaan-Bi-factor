@@ -1,7 +1,7 @@
 Lavaan: Bi-factor
 ====================================================
 
-This is an R code repository for the analysis of a bi-factor model with two general factors, plus interaction and mediation effects, using the R package {lavaan}
+This is an R code repository for the analysis of a bi-factor model with two general factors, plus interaction (moderation) and mediation effects, using the R package {lavaan}
 
 Author(s)
 -------
@@ -10,6 +10,8 @@ Author(s)
 
 Updates & Notes
 -------
+
+**Most recent summary report: See "ResultsSummary_Jan242020.md"**
 
 1. Normality assumption in regular ML
   - There are ways to handle it. See pp.76-, Tutorial slides [here, Yves Rosseel 2014](https://personality-project.org/r/tutorials/summerschool.14/rosseel_sem_intro.pdf)

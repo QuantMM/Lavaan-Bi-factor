@@ -3,10 +3,12 @@ Lavaan: Bi-factor
 
 This is an R code repository for the analysis of a bi-factor model with two general factors, plus interaction (moderation) and mediation effects, using the R package {lavaan}
 
+
 Author(s)
 -------
 
 -   **Sunmee Kim** - <sunmee.kim@mail.mcgill.ca>
+
 
 Updates & Notes
 -------
@@ -25,3 +27,13 @@ Updates & Notes
   - In {lavaan}, though, we can manually do this so-called residual centering approach of Little et al. (2006)
   - I found notes and replies from Holger Steinmetz on [this discussion](https://www.researchgate.net/post/Is_it_possible_to_conduct_moderated_mediation_with_latent_variables_with_available_packages_of_R_softwareAll_variables_are_continuous) useful.
   - Another reference: [Three Approaches to Estimate Latent Interaction Effects](file:///C:/Users/SUNMEE%20KIM/Downloads/Steinmetzetal.2011-Threeapproachestoestimatelatentinteractioneffects.pdf)
+
+
+Notes on RMarkdown+Git
+-------
+
+1. (highly recommended): Install [Git for Windows](https://gitforwindows.org/), also known as msysgit or "Git Bash". This will ensure that the Git executable on my Windows system is found at 'C:/Program Files/Git/bin/git.exe'.
+
+2. You can create an R Markdown document in RStudio, and commit&push the changes to GitHub.
+
+3. Or, create a file with extension .Rmd on your RStudio using ```output: rmarkdown::github_document``` instead of ```output: html_document```, then simply upload the file on Github

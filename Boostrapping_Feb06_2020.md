@@ -3,25 +3,6 @@ Lavaan on Bootstrapping Methods
 Sunmee Kim
 Feb 06, 2020
 
-<style type="text/css">
-
-h1.title {
-  font-size: 30px;
-  /* color: DarkRed; */
-  text-align: center;
-}
-h4.author {
-  font-size: 24px;
-  /* font-family: "Times New Roman", Times, serif; */
-  /* color: DarkRed; */
-  text-align: center;
-}
-h4.date {
-  font-size: 24px;
-  text-align: center;
-}
-</style>
-
 ------------------------------------------------------------------------
 
 Bootstrapping Applications in SEM

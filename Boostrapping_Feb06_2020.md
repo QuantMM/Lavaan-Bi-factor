@@ -16,7 +16,7 @@ The term 'bootstrapping' is a general statistical term to indicate any tests or 
 -   Cut-point selection? Cut-points for different fit measures (e.g., RMSEA .05 for a close fit) that makes binary decisions on "so, the model fits well or not?"
 -   The choice of cut-points depends on model complexity, number of measured variables, the specified model, distributional conditions, and sample size
 -   pp.4-5: "In SEM, we formulate a covariance structure model. The Bollen-Stine (B-S) method (Bollen & Stine, 1993) provides a way of imposing the model on the sample data so that bootstrapping is done under that model."
--   In Lavaan, this task can be done by choosing different arguments of "test". See p.52 of [Package âlavaanâ](https://cran.r-project.org/web/packages/lavaan/lavaan.pdf)
+-   In Lavaan, this task can be done by choosing different arguments of "test". See p.52 of [Package lavaan](https://cran.r-project.org/web/packages/lavaan/lavaan.pdf)
 -   Options = standard, Satorra.Bentler, Yuan.Bentler, mean.var.adjusted, Bollen.Stine
 
 #### (2) To find bootstrap standard errors
@@ -287,7 +287,7 @@ Latent Variables:
 
 -   If the purpose of applying bootstrapping in the present analysis is to obtain bootstrap SE for different parameter estimates, use the "se" argument (this can solve the NA issues in Model1).
 
--   BUT, based on the description on "missing" (p.49 of [Package âlavaanâ](https://cran.r-project.org/web/packages/lavaan/lavaan.pdf)), not sure how Lavaan incorporates bootstrapping and missing value imputation. It seems that the missing value procedure comes first (i.e., random sampling based on the imputed/complete data)
+-   BUT, based on the description on "missing" (p.49 of [Package lavaan](https://cran.r-project.org/web/packages/lavaan/lavaan.pdf)), not sure how Lavaan incorporates bootstrapping and missing value imputation. It seems that the missing value procedure comes first (i.e., random sampling based on the imputed/complete data)
 
 -   If we focus on the first purpose, then we should find a way to implement both missing value imputation and test = "Bollen.Stine"
 

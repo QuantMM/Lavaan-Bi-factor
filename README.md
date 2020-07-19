@@ -13,7 +13,7 @@ Author(s)
 Updates & Notes
 -------
 
-**Most recent summary report: See "ResultsSummary_Jan242020.md"**
+**Summary report for the two points below: See "ResultsSummary_Jan242020.md"**
 
 1. Normality assumption in regular ML
   - There are ways to handle it. See pp.76-, Tutorial slides [here, Yves Rosseel 2014](https://personality-project.org/r/tutorials/summerschool.14/rosseel_sem_intro.pdf)
@@ -28,6 +28,15 @@ Updates & Notes
   - I found notes and replies from Holger Steinmetz on [this discussion](https://www.researchgate.net/post/Is_it_possible_to_conduct_moderated_mediation_with_latent_variables_with_available_packages_of_R_softwareAll_variables_are_continuous) useful.
   - Another reference: [Three Approaches to Estimate Latent Interaction Effects](file:///C:/Users/SUNMEE%20KIM/Downloads/Steinmetzetal.2011-Threeapproachestoestimatelatentinteractioneffects.pdf)
 
+
+**Final code
+
+1. Baseline model: without the mediation effect of Negative Emotionality
+  - See "Codes_July18_2020.r"
+  - Some skipped code lines can be found in the code file below
+  
+2. Final analysis: to investigate the mediation effect of Negative Emotionality
+  - See "Codes_May19_2020.r"
 
 Notes on RMarkdown+Git
 -------

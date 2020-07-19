@@ -28,15 +28,14 @@ Updates & Notes
   - I found notes and replies from Holger Steinmetz on [this discussion](https://www.researchgate.net/post/Is_it_possible_to_conduct_moderated_mediation_with_latent_variables_with_available_packages_of_R_softwareAll_variables_are_continuous) useful.
   - Another reference: [Three Approaches to Estimate Latent Interaction Effects](file:///C:/Users/SUNMEE%20KIM/Downloads/Steinmetzetal.2011-Threeapproachestoestimatelatentinteractioneffects.pdf)
 
-
-**Final code
+**Final code**
 
 1. Baseline model: without the mediation effect of Negative Emotionality
   - See "Codes_July18_2020.r"
   - Some skipped code lines can be found in the code file below
   
 2. Final analysis: to investigate the mediation effect of Negative Emotionality
-  - See "Codes_May19_2020.r"
+  - See "Codes_May19_2020_1.r
 
 Notes on RMarkdown+Git
 -------
